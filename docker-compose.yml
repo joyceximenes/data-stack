@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: data_postgres
+    environment:
+      POSTGRES_USER: data_user
+      POSTGRES_PASSWORD: data_pass
+      POSTGRES_DB: data_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+      - "C:/Users/Tereza/Desktop/ML - Personal projects/data-stack-starter:/work:ro"
+volumes:
+  pg_data:
