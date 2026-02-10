@@ -2,5 +2,10 @@ pandas
 sqlalchemy
 psycopg2-binary
 dotenv
+pyyaml
+mlflow
 scikit-learn
 joblib
+xgboost
+shap
+scipy
