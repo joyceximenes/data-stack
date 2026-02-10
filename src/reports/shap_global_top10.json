@@ -1,0 +1,42 @@
+[
+  {
+    "feature": "num__tenure",
+    "mean_abs_shap": 1.2645525931398731
+  },
+  {
+    "feature": "num__MonthlyCharges",
+    "mean_abs_shap": 0.8478059524988161
+  },
+  {
+    "feature": "num__TotalCharges",
+    "mean_abs_shap": 0.5487643804352745
+  },
+  {
+    "feature": "cat__InternetService_Fiber optic",
+    "mean_abs_shap": 0.4726719681386102
+  },
+  {
+    "feature": "cat__Contract_Month-to-month",
+    "mean_abs_shap": 0.35786595903894813
+  },
+  {
+    "feature": "cat__InternetService_DSL",
+    "mean_abs_shap": 0.2738500545389521
+  },
+  {
+    "feature": "cat__Contract_Two year",
+    "mean_abs_shap": 0.2583847006951241
+  },
+  {
+    "feature": "cat__StreamingTV_Yes",
+    "mean_abs_shap": 0.20853502075101515
+  },
+  {
+    "feature": "cat__StreamingMovies_Yes",
+    "mean_abs_shap": 0.20550427691206272
+  },
+  {
+    "feature": "cat__OnlineSecurity_No",
+    "mean_abs_shap": 0.15688043084280281
+  }
+]

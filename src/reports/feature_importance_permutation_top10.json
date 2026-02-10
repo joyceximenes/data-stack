@@ -1,0 +1,52 @@
+[
+  {
+    "feature": "tenure",
+    "importance_mean": 0.18748375791397262,
+    "importance_std": 0.016603250244671162
+  },
+  {
+    "feature": "InternetService",
+    "importance_mean": 0.0678288925356291,
+    "importance_std": 0.0059587050383181845
+  },
+  {
+    "feature": "MonthlyCharges",
+    "importance_mean": 0.05350570220167626,
+    "importance_std": 0.006254092100752592
+  },
+  {
+    "feature": "Contract",
+    "importance_mean": 0.029024672440480227,
+    "importance_std": 0.006938450613750351
+  },
+  {
+    "feature": "TotalCharges",
+    "importance_mean": 0.018906046973924652,
+    "importance_std": 0.004653974481281469
+  },
+  {
+    "feature": "StreamingTV",
+    "importance_mean": 0.006801227927587495,
+    "importance_std": 0.002323679335668087
+  },
+  {
+    "feature": "StreamingMovies",
+    "importance_mean": 0.00674829555160974,
+    "importance_std": 0.0033906201968282625
+  },
+  {
+    "feature": "PaperlessBilling",
+    "importance_mean": 0.004535618700529554,
+    "importance_std": 0.0019198191103266943
+  },
+  {
+    "feature": "TechSupport",
+    "importance_mean": 0.0033171387009437447,
+    "importance_std": 0.0027025105361832384
+  },
+  {
+    "feature": "MultipleLines",
+    "importance_mean": 0.0030436763282273628,
+    "importance_std": 0.002205780056626355
+  }
+]
