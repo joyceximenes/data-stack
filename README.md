@@ -5,7 +5,7 @@
     .\.venv\Scripts\Activate.ps1
     python -m pip install -r requirements.txt
 
-2. (Opcional) Conferir/ajustar variaveis de ambiente
+2. Ajustar variaveis de ambiente
     copiar `.env.example` para `.env` e ajustar se necessario
     variaveis uteis:
     - TRAIN_CONFIG_PATH=config/train.yaml
@@ -30,6 +30,7 @@
     - artifacts (config/train.yaml, metrics_baseline.json, model_baseline.joblib)
 
 6. Como reproduzir a mesma run
+   
     manter fixos:
     - config/train.yaml
     - random_state
@@ -38,6 +39,7 @@
     python -m train.run
 
 7. Como criar uma run comparativa
+   
     alterar 1 parametro por vez em config/train.yaml (ex.: max_iter)
     rodar:
     python -m train.run
